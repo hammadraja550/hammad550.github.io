@@ -1720,6 +1720,7 @@ body.loaded {
 }
 .portfolio-box .portfolio-item .content-box .portfolio-title {
 	font-size: 30px;
+	margin-bottom: 0;
 }
 .portfolio-box .portfolio-item .content-box p {
 	margin-bottom: 0;
@@ -1899,6 +1900,9 @@ body.loaded {
 	gap: 50px;
 	padding: 0 40px;
 }
+.see-more-details {
+	text-align: center;
+}
 .popup_modal_content .portfolio_info .portfolio_info_text,
 .popup_modal_content .portfolio_info .portfolio_info_items {
 	max-width: calc(50% - 25px);
@@ -1942,6 +1946,19 @@ body.loaded {
 	font-size: 16px;
 	letter-spacing: 0.02em;
 	color: var(--tj-theme-accent-1);
+}
+.info_item_new .key{
+	display: block;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	color: var(--tj-theme-accent-1);
+}
+.info_item_new .value{
+	display: block;
+	font-size: 16px;
+	font-weight: var(--tj-fw-medium);
+	color: var(--tj-theme-accent-1);
+	margin-top: 5px;
 }
 .portfolio_info_items .info_item .value {
 	display: block;
