@@ -1682,14 +1682,14 @@ body.loaded {
 }
 .portfolio-box .content-box {
 	position: absolute;
-	bottom: 15px;
+	bottom: 0px;
 	left: 0;
 	background: #000;
 	width: calc(100% - 40px);
 	border-radius: 15px;
 	margin: 0 auto;
 	right: 0;
-	padding: 20px;
+	padding: 10px;
 	padding-right: 50px;
 	opacity: 0;
 	visibility: hidden;
@@ -1879,6 +1879,11 @@ body.loaded {
 	height: 100%;
 	-o-object-fit: cover;
 	object-fit: cover;
+	transition: transform 4s ease;
+	transform: translateY(0%);
+}
+.popup_modal_img img:hover{
+	transform: translateY(-80%);
 }
 .popup_modal_content {
 	background-color: var(--tj-white);
